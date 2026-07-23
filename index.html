@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<title>QoT — QRIS of Things</title>
+<meta name="description" content="QoT adalah lapisan infrastruktur yang menghubungkan setiap perangkat fisik ke jaringan QRIS Indonesia.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Intro splash -->
+<div id="qot-intro" class="intro">
+  <qot-mark3d id="qot-intro-mark" accent="#4d7cff" class="intro-mark"></qot-mark3d>
+  <div class="intro-glow"></div>
+  <div class="intro-fade"></div>
+  <div class="intro-content">
+    <span class="intro-title">QoT</span>
+    <span class="intro-sub">QRIS of Things</span>
+    <div class="intro-bar"><div class="intro-bar-fill"></div></div>
+    <span id="qot-enter" class="intro-enter">Klik untuk masuk &rarr;</span>
+  </div>
+</div>
+
+<!-- Nav -->
+<nav id="qot-nav" class="nav">
+  <a href="#top" class="nav-brand">
+    <span class="nav-logo-grid"><i></i><i></i><i></i><i></i><i class="dot"></i><i></i><i></i><i></i><i></i></span>
+    <span class="nav-word">QoT</span>
+    <span class="nav-tag">QRIS of Things</span>
+  </a>
+  <div id="qot-navlinks" class="nav-links">
+    <a href="#manifesto">Platform</a>
+    <a href="#scenes">Perangkat</a>
+    <a href="#fabric">Jaringan</a>
+    <a href="#end">Perusahaan</a>
+  </div>
+  <a href="#manifesto" class="nav-cta">Jelajahi platform <span class="arrow">&rarr;</span></a>
+  <button id="qot-burger" class="burger" aria-label="Menu">
+    <span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile menu -->
+<div id="qot-menu" class="mobile-menu">
+  <div class="mobile-menu-top">
+    <span class="mobile-menu-brand">
+      <span class="nav-logo-grid"><i></i><i></i><i></i><i></i><i class="dot"></i><i></i><i></i><i></i><i></i></span>
+      <span class="nav-word">QoT</span>
+    </span>
+    <button id="qot-menu-close" class="mobile-menu-close" aria-label="Tutup">&times;</button>
+  </div>
+  <nav class="mobile-menu-links">
+    <a href="#manifesto">Platform</a>
+    <a href="#scenes">Perangkat</a>
+    <a href="#fabric">Jaringan</a>
+    <a href="#end">Perusahaan</a>
+  </nav>
+  <a href="#manifesto" class="mobile-menu-cta">Jelajahi platform <span class="arrow">&rarr;</span></a>
+</div>
+
+<!-- Hero -->
+<section id="top" class="hero">
+  <qot-mark3d id="qot-hero-mark" accent="#4d7cff" class="hero-mark"></qot-mark3d>
+  <div class="hero-glow"></div>
+  <div class="hero-vignette"></div>
+  <div class="hero-fade"></div>
+  <div class="hero-content">
+    <div data-reveal class="eyebrow">Infrastruktur untuk perdagangan otonom</div>
+    <h1 data-reveal data-reveal-delay="130" class="hero-title">Setiap mesin,<br>jadi merchant.</h1>
+    <p data-reveal data-reveal-delay="280" class="hero-sub">Lapisan infrastruktur yang menghubungkan setiap perangkat fisik ke jaringan QRIS Indonesia.</p>
+    <div data-reveal data-reveal-delay="440" class="hero-cta-wrap">
+      <a href="#manifesto" class="btn-outline">Jelajahi platform <span class="arrow">&rarr;</span></a>
+    </div>
+  </div>
+  <div id="qot-cue" class="scroll-cue">
+    <span>Gulir</span>
+    <span class="scroll-cue-line"></span>
+  </div>
+</section>
+
+<!-- Manifesto -->
+<section id="manifesto" class="manifesto section-pad">
+  <p data-reveal class="manifesto-eyebrow">QoT bukan payment gateway.</p>
+  <h2 data-reveal data-reveal-delay="140" class="manifesto-title">Ini lapisan di balik segala hal yang kelak menerima pembayaran.</h2>
+</section>
+
+<!-- Yang jadi mungkin -->
+<section class="possible section-pad section-border">
+  <div class="possible-inner">
+    <div data-reveal class="possible-eyebrow">Yang jadi mungkin</div>
+    <h3 id="qot-type" data-reveal data-reveal-delay="130" data-text="Saat setiap benda bisa bertransaksi, dunia berhenti mengantre." class="possible-title">Saat setiap benda bisa bertransaksi, dunia berhenti mengantre.</h3>
+  </div>
+</section>
+
+<!-- Devices -->
+<div id="scenes">
+
+  <section class="device section-border">
+    <div class="device-bg" data-parallax="0.1">
+      <img src="assets/images/dev-parking.webp" alt="Parkir Pintar" loading="lazy">
+      <div class="device-tint"></div>
+    </div>
+    <div class="device-scrim"></div>
+    <div class="device-content section-pad">
+      <div data-reveal class="device-index">01 / 08</div>
+      <h2 data-reveal data-reveal-delay="90" class="device-name">Parkir Pintar</h2>
+      <p data-reveal data-reveal-delay="180" class="device-line">Masuk, keluar. Sudah lunas sebelum kamu sampai palang.</p>
+    </div>
+  </section>
+
+  <section class="device section-border">
+    <div class="device-bg" data-parallax="0.1">
+      <img src="assets/images/dev-ev.webp" alt="Pengisi Daya EV" loading="lazy">
+      <div class="device-tint"></div>
+    </div>
+    <div class="device-scrim"></div>
+    <div class="device-content section-pad">
+      <div data-reveal class="device-index">02 / 08</div>
+      <h2 data-reveal data-reveal-delay="90" class="device-name">Pengisi Daya EV</h2>
+      <p data-reveal data-reveal-delay="180" class="device-line">Tanpa akun. Tanpa aplikasi. Charger-nya adalah kasirnya.</p>
+    </div>
+  </section>
+
+  <section class="device section-border">
+    <div class="device-bg" data-parallax="0.1">
+      <img src="assets/images/dev-locker.webp" alt="Loker Pintar" loading="lazy">
+      <div class="device-tint"></div>
+    </div>
+    <div class="device-scrim"></div>
+    <div class="device-content section-pad">
+      <div data-reveal class="device-index">03 / 08</div>
+      <h2 data-reveal data-reveal-delay="90" class="device-name">Loker Pintar</h2>
+      <p data-reveal data-reveal-delay="180" class="device-line">Terbuka begitu nilai berpindah.</p>
+    </div>
+  </section>
+
+  <section class="device section-border">
+    <div class="device-bg" data-parallax="0.1">
+      <img src="assets/images/dev-coffee.webp" alt="Mesin Kopi" loading="lazy">
+      <div class="device-tint"></div>
+    </div>
+    <div class="device-scrim"></div>
+    <div class="device-content section-pad">
+      <div data-reveal class="device-index">04 / 08</div>
+      <h2 data-reveal data-reveal-delay="90" class="device-name">Mesin Kopi</h2>
+      <p data-reveal data-reveal-delay="180" class="device-line">Sekejap cahaya. Secangkir sempurna.</p>
+    </div>
+  </section>
+
+  <section class="device section-border">
+    <div class="device-bg" data-parallax="0.1">
+      <img src="assets/images/dev-home.webp" alt="Rumah Pintar" loading="lazy">
+      <div class="device-tint"></div>
+    </div>
+    <div class="device-scrim"></div>
+    <div class="device-content section-pad">
+      <div data-reveal class="device-index">05 / 08</div>
+      <h2 data-reveal data-reveal-delay="90" class="device-name">Rumah Pintar</h2>
+      <p data-reveal data-reveal-delay="180" class="device-line">Rumahmu diam-diam melunasi tagihannya sendiri.</p>
+    </div>
+  </section>
+
+  <section class="device section-border">
+    <div class="device-bg" data-parallax="0.1">
+      <img src="assets/images/dev-robot.webp" alt="Lengan Robot" loading="lazy">
+      <div class="device-tint"></div>
+    </div>
+    <div class="device-scrim"></div>
+    <div class="device-content section-pad">
+      <div data-reveal class="device-index">06 / 08</div>
+      <h2 data-reveal data-reveal-delay="90" class="device-name">Lengan Robot</h2>
+      <p data-reveal data-reveal-delay="180" class="device-line">Mesin bertransaksi dengan mesin.</p>
+    </div>
+  </section>
+
+  <section class="device section-border">
+    <div class="device-bg" data-parallax="0.1">
+      <img src="assets/images/dev-factory.webp" alt="Pabrik Pintar" loading="lazy">
+      <div class="device-tint"></div>
+    </div>
+    <div class="device-scrim"></div>
+    <div class="device-content section-pad">
+      <div data-reveal class="device-index">07 / 08</div>
+      <h2 data-reveal data-reveal-delay="90" class="device-name">Pabrik Pintar</h2>
+      <p data-reveal data-reveal-delay="180" class="device-line">Setiap unit keluaran, faktur miliknya sendiri.</p>
+    </div>
+  </section>
+
+  <section class="device section-border">
+    <div class="device-bg" data-parallax="0.1">
+      <img src="assets/images/dev-vending.webp" alt="Mesin Penjual" loading="lazy">
+      <div class="device-tint"></div>
+    </div>
+    <div class="device-scrim"></div>
+    <div class="device-content section-pad">
+      <div data-reveal class="device-index">08 / 08</div>
+      <h2 data-reveal data-reveal-delay="90" class="device-name">Mesin Penjual</h2>
+      <p data-reveal data-reveal-delay="180" class="device-line">Tanpa kartu. Tanpa antre. Hanya niat.</p>
+    </div>
+  </section>
+
+</div>
+
+<!-- Fabric -->
+<section id="fabric" class="fabric section-border">
+  <canvas id="qot-fabric"></canvas>
+  <div class="fabric-glow"></div>
+  <div class="fabric-fade"></div>
+  <div class="fabric-content">
+    <div data-reveal class="fabric-eyebrow">Jalinan QRIS</div>
+    <h2 data-reveal data-reveal-delay="130" class="fabric-title">Satu jaringan.<br>Setiap mesin.</h2>
+    <p data-reveal data-reveal-delay="280" class="fabric-sub">QRIS menjadi jalinan cahaya tak kasat mata &mdash; nilai yang mengalir di antara segala yang menghasilkannya.</p>
+  </div>
+</section>
+
+<!-- End CTA -->
+<section id="end" class="end section-border">
+  <div class="end-glow"></div>
+  <div class="end-content">
+    <p data-reveal class="end-eyebrow">Masa depan perdagangan fisik</p>
+    <h2 data-reveal data-reveal-delay="140" class="end-title">tanpa kasir.</h2>
+    <div data-reveal data-reveal-delay="320" class="end-cta-wrap">
+      <a href="#top" class="btn-outline">Jelajahi platform <span class="arrow">&rarr;</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer section-pad">
+  <div class="footer-brand">
+    <span class="footer-word">QoT</span>
+    <span class="footer-tag">QRIS of Things &middot; Jakarta &middot; 2026</span>
+  </div>
+  <div class="footer-links">
+    <a href="#manifesto">Platform</a>
+    <a href="#scenes">Perangkat</a>
+    <a href="#fabric">Jaringan</a>
+    <a href="#end">Kontak</a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="js/qot-mark3d.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
