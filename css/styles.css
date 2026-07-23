@@ -130,6 +130,9 @@ body.reduce-motion [data-reveal]{opacity:1;transform:none;transition:none}
   .nav-cta{display:none !important}
   .burger{display:flex !important}
   .section-pad{padding-left:22px !important;padding-right:22px !important}
+  .footer{flex-direction:column;align-items:flex-start !important;gap:24px !important;padding-top:36px !important;padding-bottom:40px !important}
+  .footer-links{gap:14px 22px;flex-wrap:wrap}
+  .footer-powered{padding-top:4px;border-top:1px solid rgba(255,255,255,.07);width:100%;padding-top:20px}
 }
 
 /* ---------- mobile menu ---------- */
