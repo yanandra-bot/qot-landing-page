@@ -183,8 +183,10 @@ body.reduce-motion [data-reveal]{opacity:1;transform:none;transition:none}
 .manifesto-title{font:400 clamp(40px,6.6vw,116px)/1.0 'Space Grotesk';letter-spacing:-.038em;margin:0;max-width:15ch}
 
 /* ---------- possible ---------- */
-.possible{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding-top:12vh;padding-bottom:12vh}
-.possible-inner{max-width:1000px}
+.possible{position:relative;overflow:hidden;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding-top:12vh;padding-bottom:12vh}
+.possible-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+.possible-scrim{position:absolute;inset:0;background:linear-gradient(to bottom,rgba(8,8,10,.5),rgba(8,8,10,.75) 60%,rgba(8,8,10,.92));pointer-events:none}
+.possible-inner{position:relative;max-width:1000px}
 .possible-eyebrow{font:400 12px 'Space Mono';letter-spacing:.4em;color:var(--accent);text-transform:uppercase;margin-bottom:30px}
 .possible-title{font:400 clamp(30px,4.4vw,72px)/1.14 'Space Grotesk';letter-spacing:-.03em;margin:0;color:rgba(242,242,244,.9);min-height:1.14em}
 .type-caret{display:inline-block;width:.5ch;height:.92em;background:var(--accent);margin-left:8px;transform:translateY(.1em);border-radius:1px;animation:qotcaret 1.05s step-end infinite}
