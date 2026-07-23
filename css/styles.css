@@ -228,3 +228,7 @@ body.reduce-motion [data-reveal]{opacity:1;transform:none;transition:none}
 .footer-links{display:flex;gap:30px;font:400 12px 'Space Mono';letter-spacing:.1em;color:rgba(242,242,244,.45);text-transform:uppercase}
 .footer-links a{transition:color .2s ease}
 .footer-links a:hover{color:#fff}
+.footer-powered{display:flex;align-items:center;gap:10px}
+.footer-powered-label{font:400 9.5px 'Space Mono';letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.42)}
+.footer-powered-badge{display:inline-flex;align-items:center;background:#fff;border-radius:8px;padding:6px 10px;line-height:0}
+.footer-powered-badge img{height:22px;width:auto;display:block}
